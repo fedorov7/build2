@@ -16,4 +16,4 @@ LABEL summary="Build2 C++ build toolchain in Docker"
 LABEL version="0.12.0"
 
 # Install buildable executables
-COPY --from=builder /build2 /usr/local
+COPY --from=builder /build2 /usr
