@@ -1,4 +1,4 @@
-FROM fedorov7/gcc as base
+FROM gcc:9.3 as base
 
 FROM base as builder
 
